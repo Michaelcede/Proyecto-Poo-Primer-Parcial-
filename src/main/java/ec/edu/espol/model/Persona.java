@@ -12,17 +12,25 @@ import java.util.ArrayList;
  * @author jimmy
  */
 public class Persona {
-        protected String nombre = "";
-	protected String apellido = "";
-	protected String organizacion = "";
-	protected String mail = "";
-	protected String clave = "";
-
+        protected String nombre;
+	protected String apellido;
+	protected String organizacion;
+	protected String mail;
+	protected String clave;
+	
+    public Persona(String nombre, String apellido, String organizacion, String mail, String clave) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.organizacion = organizacion;
+        this.mail = mail;
+        this.clave = clave;
+    }
+	
     public String getNombre() {
         return nombre;
     }
 
-    public String getApellidos() {
+    public String getApellido() {
         return apellido;
     }
 
@@ -37,6 +45,27 @@ public class Persona {
     public String getClave() {
         return clave;
     }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public void setOrganizacion(String organizacion) {
+        this.organizacion = organizacion;
+    }
+
+    public void setMail(String mail) {
+        this.mail = mail;
+    }
+
+    public void setClave(String clave) {
+        this.clave = clave;
+    }
+
     
     public void guardarVendedor() throws Exception {
           ArrayList vendedor = new ArrayList();
@@ -85,4 +114,5 @@ public class Persona {
          }
          return false;
      }
+	
 }
