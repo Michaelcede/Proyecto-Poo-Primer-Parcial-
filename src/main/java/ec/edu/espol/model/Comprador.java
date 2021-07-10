@@ -32,6 +32,5 @@ public class Comprador extends Persona {
             return comprador;
 	}
 	}
-HOLA BB ESTAS GUAPO
-Viste que si podias mmv
+
 
