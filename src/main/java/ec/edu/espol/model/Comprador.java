@@ -32,4 +32,4 @@ public class Comprador extends Persona {
             return comprador;
 	}
 	}
-
+HOLA BB ESTAS GUAPO
