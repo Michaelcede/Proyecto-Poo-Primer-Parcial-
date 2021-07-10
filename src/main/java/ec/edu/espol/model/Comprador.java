@@ -33,3 +33,5 @@ public class Comprador extends Persona {
 	}
 	}
 HOLA BB ESTAS GUAPO
+Viste que si podias mmv
+
